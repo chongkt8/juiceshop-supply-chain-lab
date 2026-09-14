@@ -54,6 +54,7 @@ jobs:
         with:
           sarif_file: results.sarif
           category: "grype-sbom"
+
 # Install GuardDog via pip 
       - name: Install GuardDog & jq 
         run: | 
